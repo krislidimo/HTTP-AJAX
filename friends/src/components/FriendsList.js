@@ -4,7 +4,7 @@ import '../App.css';
 
 function FriendsList(props) {
   return (
-    <div className="FriendsList">
+    <div className="friends-list">
       {props.friends.map( friend => {
           return <Friend key={friend.id} friend={friend}/>
         })}
