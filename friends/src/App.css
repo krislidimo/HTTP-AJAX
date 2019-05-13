@@ -1,0 +1,58 @@
+.App {
+  display:flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.friends-list-wrapper {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friends-list {
+
+}
+
+.friend {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.forms {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding: 0 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.forms input {
+  height: 24px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.forms button {
+  height: 28px;
+  margin-bottom: 12px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid black;
+}
